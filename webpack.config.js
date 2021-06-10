@@ -12,16 +12,5 @@ module.exports = {
         extensions: [".ts", ".tsx", ".js"],
         plugins: [],
         fallback: { util: false  }
-    },
-    module: {
-        rules: [
-            {
-                test: /\.tsx?$/,
-                loader: "ts-loader",
-                options: {
-                    transpileOnly: true
-                }
-            }
-        ]
     }
 };
